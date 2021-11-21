@@ -21,7 +21,11 @@ int main(){
             int j=0;
             scanf("%d", &i);
             scanf("%d", &j);
-            printf("%d\n",shortestPath(i,j));
+            printf("\n%d",shortestPath(i,j));
+
+        }
+        else if(selection =='D'){
+            continue;
         }
         else{
             continue;

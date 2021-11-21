@@ -100,15 +100,15 @@ int isPethHelper(int i, int j){
 
 int isPath(int i, int j){
     if(i==j){
-        printf("False\n");
+        printf("\nFalse");
     }
     else{
         int ans = isPethHelper(i,j);
         if(ans == 1){
-            printf("True\n");
+            printf("\nTrue");
         }
         else if(ans == -1){
-            printf("False\n");
+            printf("\nFalse");
         }
     }
     return 0;
