@@ -23,7 +23,7 @@ int graphInput(){
     int weight = 0;
     for(int i=0; i<10; i++){
         for(int j=0; j<10; j++){
-            scanf("%d ",&weight);
+            scanf("%d",&weight);
             myGraph[i][j] = weight;
         }
     }
@@ -100,15 +100,15 @@ int isPethHelper(int i, int j){
 
 int isPath(int i, int j){
     if(i==j){
-        printf("\nFalse");
+        printf("False");
     }
     else{
         int ans = isPethHelper(i,j);
         if(ans == 1){
-            printf("\nTrue");
+            printf("True");
         }
         else if(ans == -1){
-            printf("\nFalse");
+            printf("False");
         }
     }
     return 0;
